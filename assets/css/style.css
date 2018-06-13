@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif; }
+
+main {
+  min-height: 500px; }
+
+.btn-link {
+  background: #bb31b9;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  padding-left: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding-right: 14px; }
+  .btn-link:hover {
+    background: #a82ba6 !important;
+    color: #fff;
+    text-decoration: none; }
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  padding-top: 60px;
+  padding-bottom: 10px; }
+  @media screen and (max-width: 340px) {
+    header {
+      padding-top: 30px !important; }
+      header .btn-link {
+        margin-top: 90px; } }
+  @media screen and (max-width: 560px) {
+    header .logo span img {
+      width: 40px !important; }
+    header .logo h4 {
+      font-size: 16px !important; }
+    header .btn-link {
+      font-size: 14px !important; } }
+  header .container .row {
+    display: flex;
+    align-items: center; }
+    header .container .row .logo {
+      text-decoration: none;
+      align-items: center;
+      display: flex; }
+      header .container .row .logo span {
+        padding: 6px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        background: #f3fefd; }
+        header .container .row .logo span img {
+          width: 55px;
+          border-radius: 50%; }
+      header .container .row .logo h4 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 0px; }
+
+section#image-banner {
+  height: 100vh;
+  background-position: center center !important;
+  background-size: cover !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#image-banner:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #cbb8cc;
+    opacity: 0.8; }
+  section#image-banner h1 {
+    font-size: 52px;
+    color: #a82ba6;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 40px; }
+  section#image-banner .row {
+    justify-content: flex-end; }
+  @media screen and (max-width: 340px) {
+    section#image-banner h1 {
+      margin-top: 30px; } }
+  @media screen and (max-width: 560px) {
+    section#image-banner:before {
+      opacity: 0.85; }
+    section#image-banner h1 {
+      text-align: center;
+      font-size: 42px !important;
+      line-height: 45px;
+      color: #fff !important;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+    section#image-banner .acoes {
+      text-align: center; } }
