@@ -33,6 +33,33 @@
 </head>
 
 <body>
+  <div class="header-scroll" style="display: none">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="#inicio" class="logo desce-efeito">
+            <img src="assets/imgs/logo.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-9 col-flex">
+          <ul class="nav-list">
+            <li>
+              <a class="desce-efeito" href="#inicio">Início</a>
+            </li>
+            <li>
+              <a class="desce-efeito" href="#como-funciona">Como Funciona</a>
+            </li>
+            <li>
+              <a class="desce-efeito" href="#quem-fala">Imprensa</a>
+            </li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSZbpc_lbZPG9Hwpwf_Ec7MtXsBktw1A1oWiZZX67CweqWjw/viewform" class="btn btn-link">
+            Solicite atendimento
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <header>
     <div class="container">
       <div class="row">
@@ -51,6 +78,7 @@
     </div>
   </header>
   <main>
+    <section id="inicio"></section>
     <section id="image-banner" style="background : url('assets/imgs/banner.jpg')">
       <div class="container">
         <div class="row">
@@ -67,22 +95,105 @@
       <div class="texto-absolute">Psicólogo Técnico Responsável
         <br> Maria Juliana Ferraia
         <br> CRP: 02/18138</div>
-      <!-- <a href="#como-funciona" class="button-scroll desce-efeito">
+      <a href="#como-funciona" class="button-scroll desce-efeito">
         <span></span>
-      </a> -->
+      </a>
     </section>
-    <!-- <section id="como-funciona" class="padding-top-section padding-bottom-section">
+
+    <section id="como-funciona" class="padding-top-section padding-bottom-section">
       <div class="container">
         <div class="row">
-          
+          <div class="col-12">
+            <div class="title-content text-center">
+              <h1>Como a Expire funciona</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <ul class="timeline mb-0">
+
+              <li class="timeline-inverted">
+                <div class="timeline-badge justify-center align-center warning">
+                  <img src="assets/imgs/check-form.svg" alt="">
+                </div>
+                <div class="timeline-panel box br-0">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title font-weight-bold">1.Solicite atendimento:</h4>
+                  </div>
+                  <div class="timeline-body color-azul-medio font-14">
+                    Preencha um formulário com algumas breves informações (Ex.: contato, disponibilidade e localidade). Sua identificação será
+                    mantida em total sigilo.
+                  </div>
+                </div>
+              </li>
+              <li class="">
+                <div class="timeline-badge justify-center align-center ">
+                  <img src="assets/imgs/multiple-users-silhouette.svg" alt="">
+                </div>
+                <div class="timeline-panel box br-0">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title font-weight-bold">2.Comunidade de Psicólogos:</h4>
+                  </div>
+                  <div class="timeline-body color-azul-medio font-14">
+                    Após o preenchimento do formulário, sua solicitação será encaminhada para a comunidade de psicólogos da sua cidade. Sua identificação
+                    permanece em total sigilo.
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge justify-center align-center warning">
+                  <img src="assets/imgs/psychologist.svg" alt="">
+                </div>
+                <div class="timeline-panel box br-0">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title font-weight-bold">3.Após ler sua solicitação:</h4>
+                  </div>
+                  <div class="timeline-body color-azul-medio font-14">
+                    o(a) psicólogo(a) que perceber que tem os requisitos adequados para lhe atender, solicita a liberação dos seus contatos e
+                    entrará em contato com você para marcarem um horário e iniciar o processo terapêutico de forma presencial.
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
         </div>
       </div>
-    </section> -->
+    </section>
+
+    <section id="quem-fala">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-content text-center">
+              <h1>Quem está falando da gente</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <ul class="list-icons">
+              <li>
+                <img src="assets/imgs/logo1.png" alt="">
+              </li>
+              <li>
+                <img src="assets/imgs/logo2.jpg" alt="">
+              </li>
+              <li>
+                <img src="assets/imgs/logo3.png" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
   <footer>
     <p>Atenção: este site não oferece tratamento ou aconselhamento imediato para pessoas em crise suicida.
       <br> Em caso de crise, ligue pra 141 (CVV) ou acesse
-      <a href="https://www.cvv.org.br/" target="_blank">www.cvv.org.br</a>. Em caso de emergência, procure o hospital mais proximo.
+      <a href="https://www.cvv.org.br/" target="_blank">www.cvv.org.br</a>. Em caso de emergência, procure o hospital mais próximo.
     </p>
   </footer>
 
@@ -91,7 +202,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/main.js"></script>
   <!-- END JS -->
-  
+
 </body>
 
 </html>
