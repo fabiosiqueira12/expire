@@ -499,11 +499,15 @@ footer {
   padding: 14px; }
   footer p {
     color: #fff;
-    font-size: 14px;
-    text-align: center;
+    font-size: 12px;
+    text-align: justify;
     margin-bottom: 0px; }
     footer p a {
       color: #fff !important; }
+  footer .texto-absolute {
+    color: #fff;
+    font-size: 12px;
+    text-align: right; }
 
 .list-icons {
   display: flex;

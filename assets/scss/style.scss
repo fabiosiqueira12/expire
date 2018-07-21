@@ -599,12 +599,17 @@ footer {
     padding: 14px;
     p {
         color: #fff;
-        font-size: 14px;
-        text-align: center;
+        font-size: 12px;
+        text-align: justify;
         margin-bottom: 0px;
         a {
             color: #fff !important;
         }
+    }
+    .texto-absolute{
+        color: #fff;
+        font-size: 12px;
+        text-align: right;
     }
 }
 
