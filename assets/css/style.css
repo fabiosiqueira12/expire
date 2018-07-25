@@ -494,8 +494,28 @@ section#quem-fala {
   -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.18); }
 
+section#desenvolvido {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #b3b; }
+  section#desenvolvido h6 {
+    color: #fff; }
+  section#desenvolvido .list-desen {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    list-style: none;
+    align-items: center; }
+    section#desenvolvido .list-desen li {
+      margin-right: 30px; }
+      section#desenvolvido .list-desen li img {
+        max-width: 145px; }
+      section#desenvolvido .list-desen li:last-child {
+        margin-right: 0px; }
+
 footer {
-  background: #b3b;
+  background: #7b227b;
   padding: 14px; }
   footer p {
     color: #fff;
