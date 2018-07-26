@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+  <title>Expire</title>
+  <meta charset="utf-8">
+  <meta name="description" itemprop="description" content="Solicite uma consulta psicológica.">
+  <meta name="keywords" content="expire,psicólogo,solicitar atendimento, atendimento psicológico" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Expire" />
+  <meta property="og:url" content="http://expire.com.br" />
+  <meta property="og:title" content="Expire" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://expire.com.br/assets/imgs/banner.jpg" />
+  <meta property="og:description" content="Solicite uma consulta psicológica." />
+  <link rel="icon" href="assets/imgs/apple-icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/imgs/apple-icon.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/form-elements.css">
+  <link rel="stylesheet" href="assets/css/solicitacao.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- END CSS -->
+
+</head>
+
+<body>
+
+  <!-- Top content -->
+  <div class="top-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 text">
+          <h1>Olá! somos a
+            <strong>EXPIRE</strong> e estamos aqui para lhe ajudar.</h1>
+          <div class="description">
+            <p class="mb-0">
+              Procurando atendimento psicológico? Vamos ajudá-lo nessa procura.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 form-box">
+          <form role="form" action="" method="post" class="f1">
+
+            <div class="f1-steps">
+              <div class="f1-progress">
+                <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3" style="width: 16.66%;"></div>
+              </div>
+              <div class="f1-step active">
+                <div class="f1-step-icon">
+                  <i class="fa fa-user"></i>
+                </div>
+                <p>Para</p>
+              </div>
+              <div class="f1-step">
+                <div class="f1-step-icon">
+                  <i class="fa fa-list"></i>
+                </div>
+                <p>Sobre</p>
+              </div>
+              <div class="f1-step">
+                <div class="f1-step-icon">
+                  <i class="fa fa-wpforms"></i>
+                </div>
+                <p>Atendimento</p>
+              </div>
+              <div class="f1-step">
+                <div class="f1-step-icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <p>Contato</p>
+              </div>
+            </div>
+
+            <fieldset>
+              <h4>Esta solicitação de atendimento psicológico é para:</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Para mim mesmo(a)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Para meu filho/minha filha
+                </label>
+              </div>
+              <div class="f1-buttons">
+                <button type="button" class="btn btn-next">Próximo</button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="form-group">
+                <label class="" for="nome">Informe seu Nome</label>
+                <input type="text" name="nome" class="form-control" id="nome">
+              </div>
+              <div class="form-group">
+                <label class="" for="cpf">Informe seu CPF</label>
+                <input type="text" name="cpf" class="form-control mask-cpf" id="cpf">
+              </div>
+              <div class="form-group">
+                <label class="" for="data-nascimento">Informe sua Data Nascimento</label>
+                <input type="date" name="data-nascimento" class="form-control" id="data-nascimento">
+              </div>
+              <div class="form-group">
+                <label class="" for="cidade">Informe onde você mora</label>
+                <input type="text" name="cidade" class="form-control" id="cidade">
+              </div>
+              <div class="form-group">
+                <label class="" for="escolaridade">Qual é sua escolaridade</label>
+                <select name="escolaridade" class="form-control" id="escolaridade">
+                  <option value="">-- Selecione --</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="" for="cidade">Qual é a sua profissão/formação</label>
+                <input type="text" name="cidade" class="form-control" id="cidade">
+              </div>
+              <h4>Você está trabalhando no momento</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="tipo" id="trabalha1" value="option1" checked>
+                <label class="form-check-label" for="trabalha1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="trablalha" id="trabalha2" value="option2">
+                <label class="form-check-label" for="trabalha2">
+                  Não
+                </label>
+              </div>
+              <h4>Por que você está procurando atendimento psicológico</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="atendimento1">
+                <label class="form-check-label" for="atendimento1">
+                  Problemas com minha família
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="atendimento2">
+                <label class="form-check-label" for="atendimento2">
+                  Problemas com meu trabalho
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="atendimento3">
+                <label class="form-check-label" for="atendimento3">
+                  Problemas com drogas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="atendimento4">
+                <label class="form-check-label" for="atendimento4">
+                  Problemas comigo mesmo(a)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="atendimento5">
+                <label class="form-check-label" for="atendimento5">
+                  Outros
+                </label>
+              </div>
+              <h4>Você já possui um encaminhamento médico</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="encaminhamento" id="encaminhamento1" value="option1" checked>
+                <label class="form-check-label" for="encaminhamento1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="encaminhamento" id="encaminhamento2" value="option2">
+                <label class="form-check-label" for="encaminhamento2">
+                  Não
+                </label>
+              </div>
+
+              <h4>Qual dia da semana você tem disponibilidade</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana1">
+                <label class="form-check-label" for="diasemana1">
+                  Segunda-Feira
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana2">
+                <label class="form-check-label" for="diasemana2">
+                  Terça-Feira
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana3">
+                <label class="form-check-label" for="diasemana3">
+                  Quarta-Feira
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana4">
+                <label class="form-check-label" for="diasemana4">
+                  Quinta-Feira
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana5">
+                <label class="form-check-label" for="diasemana5">
+                  Sexta-Feira
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana6">
+                <label class="form-check-label" for="diasemana6">
+                  Sábado
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="diasemana7">
+                <label class="form-check-label" for="diasemana7">
+                  Domingo
+                </label>
+              </div>
+
+              <h4>Qual turno você tem mais disponibilidade</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="disponibilidade1">
+                <label class="form-check-label" for="disponibilidade1">
+                  Manhã
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="disponibilidade2">
+                <label class="form-check-label" for="disponibilidade2">
+                  Tarde
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="disponibilidade3">
+                <label class="form-check-label" for="disponibilidade3">
+                  Noite
+                </label>
+              </div>
+
+              <div class="f1-buttons">
+                <button type="button" class="btn btn-previous">Voltar</button>
+                <button type="button" class="btn btn-next">Próximo</button>
+              </div>
+
+            </fieldset>
+
+            <fieldset>
+              <div class="form-group">
+                <label for="">Há quanto tempo você percebe que precisa solicitar atendimento psicológico</label>
+                <select name="tempo" class="form-control" id="">
+                  <option value="1">Há alguns dias</option>
+                  <option value="2">Há algumas semanas</option>
+                  <option value="3">Há alguns meses</option>
+                  <option value="4">Há alguns anos</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Com que frequência você se lembra de que precisa de atendimento psicológico</label>
+                <select name="frequencia" class="form-control" id="">
+                  <option value="1">Esporadicamente</option>
+                  <option value="2">Mensalmente</option>
+                  <option value="3">Semanalmente</option>
+                  <option value="4">Diariamente</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Você sente que agora é um momento apropriado para iniciar um atendimento psicológico</label>
+                <select name="momento" class="form-control" id="">
+                  <option value="1">Não</option>
+                  <option value="2">Talvez</option>
+                  <option value="3">Sim</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Você já foi a outros atendimentos psicológicos antes</label>
+                <select name="possui" class="form-control" id="">
+                  <option value="2">Sim</option>
+                  <option value="1">Não</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Em relação ao que você busca atingir com atendimentos psicológicos, você tem buscado atingir de outras formas</label>
+                <select name="possui" class="form-control" id="">
+                  <option value="2">Sim</option>
+                  <option value="1">Não</option>
+                </select>
+              </div>
+              <h4>Você percebeu a incidência de algum desses sintomas</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia1">
+                <label class="form-check-label" for="incidencia1">
+                  Emoções Itensas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia2">
+                <label class="form-check-label" for="incidencia2">
+                  Pensa em traumas recorrentemente
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia3">
+                <label class="form-check-label" for="incidencia3">
+                  Dores de cabeça/estômago inexplicáveis
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia4">
+                <label class="form-check-label" for="incidencia4">
+                  Uso excessivo de substâncias (remédios, entorpecentes, comida)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia5">
+                <label class="form-check-label" for="incidencia5">
+                  Baixo rendimento
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia6">
+                <label class="form-check-label" for="incidencia6">
+                  Desanimado com o que gosta de fazer
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia7">
+                <label class="form-check-label" for="incidencia7">
+                  Relacionamento(s) desgastado(s)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="incidencia8">
+                <label class="form-check-label" for="incidencia8">
+                  Amigos visivelmente preocupados
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="">Quando você gostaria de ter um atendimento psicológico</label>
+                <select name="gostaria" class="form-control" id="">
+                  <option value="2">Essa semana</option>
+                  <option value="1">Esse mês</option>
+                  <option value="1">Não tenho certeza</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">De 0 a 10 (zero a dez), como você percebe o nível de necessidade para solicitar atendimento psicológico neste
+                  momento
+                </label>
+                <select name="gostaria" class="form-control" id="">
+                  <option value="1">0</option>
+                  <option value="2">1</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div class="f1-buttons">
+                <button type="button" class="btn btn-previous">Voltar</button>
+                <button type="button" class="btn btn-next">Próximo</button>
+              </div>
+
+            </fieldset>
+
+            <fieldset>
+              <div class="form-group">
+                <label for="">Informe seu número de telefone/celular</label>
+                <input type="text" class="form-control mask-phone" name="telefone">
+                <small id="" class="form-text text-muted">
+                  Preferencialmente um número com whatsapp/telegram.
+                </small>
+              </div>
+              <div class="form-group">
+                <label for="">Informe seu e-mail</label>
+                <input type="email" class="form-control" name="email">
+              </div>
+              <h4>Como ficou sabendo do aplicativo EXPIRE</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo1">
+                <label class="form-check-label" for="sabendo1">
+                  Por indicação médica
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo2">
+                <label class="form-check-label" for="sabendo2">
+                  Por indicação da escola
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo3">
+                <label class="form-check-label" for="sabendo3">
+                  Por indicação de amigo(a)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo4">
+                <label class="form-check-label" for="sabendo4">
+                  Pelo Facebook
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo5">
+                <label class="form-check-label" for="sabendo5">
+                  Pelo Instagram
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo6">
+                <label class="form-check-label" for="sabendo6">
+                  Pelo Youtube
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sabendo7">
+                <label class="form-check-label" for="sabendo7">
+                  Pelo Google
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="">Você autoriza a Expire enviar suas respostas para nossa comunidade de psicólogos</label>
+                <select name="gostaria" class="form-control" id="">
+                  <option value="1">Sim</option>
+                  <option value="2">Não</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Você sentiu falta de informar algo importante sobre você? Informa agora:</label>
+                <input type="text" class="form-control" name="resposta">
+              </div>
+              <div class="f1-buttons">
+                <button type="button" class="btn btn-previous">Voltar</button>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </div>
+            </fieldset>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- JS -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/jquery.mask.min.js"></script>
+  <script src="assets/js/jquery.backstretch.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <!-- END JS -->
+
+</body>
+
+</html>
