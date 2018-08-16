@@ -1,0 +1,79 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 14px;
+    position: relative;
+    .content-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6px;
+        .logo {
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            text-decoration: none !important;
+            span {
+                padding: 6px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+                background: #f3fefd;
+                img {
+                    width: 55px;
+                    border-radius: 50%;
+                }
+            }
+            h4 {
+                font-size: 22px;
+                font-weight: bold;
+                color: #c31284;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .list-links {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+        li {
+            margin-right: 35px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            a {
+                color: #333;
+                font-size: 18px;
+                font-weight: bold;
+                position: relative;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                &.active{
+                    color: #c31284 !important;
+                    &:after{
+                        display: block !important;
+                    }
+                }
+                &:hover{
+                    color: #c31284 !important;
+                }
+                &:after{
+                    display: none;
+                    content: '';
+                    position: absolute;
+                    bottom: -10px;
+                    left: 0px;
+                    width: 100%;
+                    height: 2px;
+                    background: #c31284;
+                }
+            }
+        }
+    }
+}
