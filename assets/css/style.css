@@ -33,7 +33,7 @@ main {
   display: flex;
   text-decoration: none !important; }
   .logo span {
-    padding: 6px;
+    padding: 0px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ main {
     margin-right: 10px;
     background: #f3fefd; }
     .logo span img {
-      width: 55px;
+      width: 65px;
       border-radius: 50%; }
   .logo h4 {
     font-size: 22px;
@@ -97,7 +97,8 @@ header {
       display: flex;
       align-items: center; }
       .header-scroll .container .row .logo img {
-        width: 50px; }
+        width: 50px;
+        border-radius: 50%; }
       .header-scroll .container .row .col-flex {
         display: flex;
         justify-content: flex-end;
