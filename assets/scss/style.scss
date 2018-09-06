@@ -825,3 +825,52 @@ footer {
     z-index: 100;
     padding-bottom: 8px;
 }
+
+.linha-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    min-height : 280px;
+}
+
+.carousel-indicators{
+    bottom: -43px !important;
+    li{
+        width: 20px;
+        transition: all 0.3s ease;
+        background: #a1a1a1;
+        cursor: pointer !important;
+        &.active{
+            width: 30px;
+            background: #7b227b;
+        }
+    }
+}
+.depoimento-box{
+    padding: 25px;
+    text-align: justify;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.18);
+    p{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .pessoa{
+        text-align: center;
+        margin-top: 10px;
+        h4{
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+        span{
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #a1a1a1;
+            letter-spacing: 2px;
+        }
+    }
+}
